@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        sh 'ssh pi:raspberry@192.168.178.200 \'uptime\''
+      }
+    }
+
   }
 }
