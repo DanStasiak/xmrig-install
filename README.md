@@ -26,7 +26,7 @@ After=multi-user.target
 
 [Service]
 Environment=Display=:0
-ExecStart=/bin/bash -c 'sudo /home/pi/xmrig/build/xmrig -o gulf.moneroocean.stream:10128 -u 498vy6WTVfd3HVFEHt6tWDQfrffFbtqR3edSXH345R7djegcNgPoT5tFHdLEVonAi7eaE13Y6oBNfcnafzNjNVhh7gXQ576 -p HilPi01'
+ExecStart=/bin/bash -c 'sudo /home/pi/xmrig/build/xmrig -o gulf.moneroocean.stream:10128 -u 498vy6WTVfd3HVFEHt6tWDQfrffFbtqR3edSXH345R7djegcNgPoT5tFHdLEVonAi7eaE13Y6oBNfcnafzNjNVhh7gXQ576 -p $PI_SERVER_NAME'
 Restart=always
 RestartSec=10s
 KillMode=process
