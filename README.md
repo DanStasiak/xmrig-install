@@ -2,7 +2,7 @@
 
 Install a xmrig to a Raspberry Pi
 
-Here are the steps
+Here are the steps:
 
 sudo raspi-config
 
