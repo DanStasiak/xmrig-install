@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Run Shell Script') {
       steps {
-        sh 'ssh pi:raspberry@192.168.178.200 \'uptime\''
+        sh 'ssh pi@192.168.178.200 \'uptime\''
       }
     }
 
